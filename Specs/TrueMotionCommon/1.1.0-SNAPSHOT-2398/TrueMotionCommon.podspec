@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 	spec.swift_version = "5.2"
 	spec.source  = { :http => "https://censiodev.jfrog.io/censiodev/cocoapods-local/TrueMotionCommon/TrueMotionCommon-1.1.0-SNAPSHOT-2398.tar.gz" }
 	spec.vendored_frameworks = "TrueMotionCommon.framework"
-	spec.dependency 'TrueMotionCore', '~> 2.0'
+	spec.dependency 'TrueMotionCore'
 	spec.dependency 'RxSwift', '~> 5.0'
     spec.dependency 'RealmSwift', '10.0.0'
 end

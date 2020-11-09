@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 	spec.swift_version = "5.2"
 	spec.source  = { :http => "https://censiodev.jfrog.io/censiodev/cocoapods-local/TrueMotionRecording/TrueMotionRecording-1.1.0-SNAPSHOT-2398.tar.gz" }
 	spec.vendored_frameworks = "TrueMotionRecording.framework"
-	spec.dependency 'TrueMotionCore', '~> 2.0'
+	spec.dependency 'TrueMotionCore'
 	spec.dependency 'TrueMotionCommon', '1.1.0-SNAPSHOT-2398'
-    spec.dependency 'TrueMotionSensorEngineAdapter', '~> 1.11'
+    spec.dependency 'TrueMotionSensorEngineAdapter'
 end

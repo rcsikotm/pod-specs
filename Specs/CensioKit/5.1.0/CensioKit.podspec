@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   s.dependency 'Bolts/Tasks', '~> 1.9'
   s.dependency 'BFTaskPromise', '~> 2.0'
   s.dependency 'RNCryptor-objc', '~> 3.0.5'
-  s.dependency 'TrueMotionCore', '~> 2.0'
-  s.dependency 'TrueMotionSensorEngineAdapter', '~> 1.14'
+  s.dependency 'TrueMotionCore'
+  s.dependency 'TrueMotionSensorEngineAdapter'
 end
